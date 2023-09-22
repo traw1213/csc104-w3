@@ -1,0 +1,60 @@
+body {
+    background-image: url(Background\ D.E.D.A.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+
+    
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(250, 0, 0);
+    text-shadow: 8px 5px 5px  rgba(109, 99, 99, 0.623);
+    text-align: center;      /* Horizontally centers the text inside the h1 element */
+    margin-top: 5px;        /* Optional: Adds some space at the top */
+    background-color: black;
+    border-radius: 25px;
+
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 8px 5px 5px  rgba(109, 99, 99, 0.623);
+    text-align: center;      /* Horizontally centers the text inside the h1 element */
+    margin-top: -50px; 
+    border-bottom: 5px solid rgb(17, 16, 16);
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+nav ul {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none; /* Removes the default bullet points */
+    margin: 0 auto;        /* Centers the ul and removes the default margin */
+    padding: 0;            /* Removes the default padding */
+    text-align: center;    /* Centers the list items */
+}
+
+nav li {
+    display: inline;       /* Keeps the li elements horizontal */
+    padding: 50px;
+
+}
+
+nav a {
+    text-decoration: none; /* Removes the default underline from links */
+    color: blue;
+    padding: 5px 10px;     /* Adds some padding around the links */
+    background-color: #f4f4f4; /* Adds a background color to the links */
+    border-radius: 5px;    /* Rounds the corners of the links */
+}
+
+nav a:hover {
+    background-color: #63eb09; /* Optional: Changes the background color on hover */
+}
